@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Feliz cumpleaños, Hillary</title>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gate">
+  <div class="kanji" aria-hidden="true">卍</div>
+  <p>Hay algo especial esperándote, Hillary.</p>
+  <button id="enter"><span>Entrar</span></button>
+</div>
+
+<header class="hero">
+  <div class="manji" aria-hidden="true">卍</div>
+  <h1 class="disp">Feliz cumple<span>Hillary</span></h1>
+  <p class="sub">La líder de la pandilla cumple años el 10 de octubre.</p>
+  <div class="tag"><b>Edición especial para ti</b></div>
+</header>
+<div class="ticker" aria-hidden="true"><div>
+  ✦ FELIZ CUMPLEAÑOS HILLARY ✦ 10 DE OCTUBRE ✦ LA JEFA DE LA PANDILLA ✦ FELIZ CUMPLEAÑOS HILLARY ✦ 10 DE OCTUBRE ✦ LA JEFA DE LA PANDILLA ✦ FELIZ CUMPLEAÑOS HILLARY ✦ 10 DE OCTUBRE ✦ LA JEFA DE LA PANDILLA ✦ FELIZ CUMPLEAÑOS HILLARY ✦ 10 DE OCTUBRE ✦ LA JEFA DE LA PANDILLA
+</div></div>
+
+<main class="wrap">
+
+<section>
+  <h2 class="disp">Cuenta regresiva</h2>
+  <p class="note">Falta muy poco para tu día.</p>
+  <div class="count" aria-live="polite">
+    <div><strong id="d">0</strong><small>días</small></div>
+    <div><strong id="h">0</strong><small>horas</small></div>
+    <div><strong id="m">0</strong><small>min</small></div>
+    <div><strong id="s">0</strong><small>seg</small></div>
+  </div>
+  <p id="cdmsg"></p>
+</section>
+
+<section>
+  <h2 class="disp">Un mensaje para ti</h2>
+  <div class="letter">
+    <p>Hillary, en las historias de pandillas siempre se habla de lealtad, de no abandonar a los tuyos y de pelear por quienes quieres. Eso es justo lo que eres como amiga.</p>
+    <p>Que este nuevo año te traiga aventuras, risas, mucha suerte y la valentía para ir por todo lo que quieres. Que nunca te falten personas que te cuiden como tú cuidas a los demás.</p>
+    <p>Gracias por estar siempre. Te quiero demaciadooo!.</p>
+    <div class="sign">Con cariño, Vladi</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="disp">Misiones de cumpleaños</h2>
+  <p class="note">Completa las cinco misiones de tu día. Márcalas al cumplirlas.</p>
+  <div class="bar"><div id="fill"></div></div>
+  <div class="missions">
+    <label class="mis"><input type="checkbox"><span>Pedir tu postre favorito</span></label>
+    <label class="mis"><input type="checkbox"><span>Bailar tu canción favorita a todo volumen</span></label>
+    <label class="mis"><input type="checkbox"><span>Tomarte una foto épica con tu mejor pose</span></label>
+    <label class="mis"><input type="checkbox"><span>Escribirle a alguien que quieres mucho</span></label>
+    <label class="mis"><input type="checkbox"><span>Pedir un deseo antes de soplar la vela</span></label>
+  </div>
+  <p id="misdone"></p>
+</section>
+
+<section>
+  <h2 class="disp">Viaje en el tiempo</h2>
+  <p class="note">Toca el botón y rebobina el reloj para ver un recuerdo.</p>
+  <div class="timebox">
+    <svg class="clock" viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" fill="#17171f" stroke="#e8b923" stroke-width="5"/>
+      <g stroke="#e8b923" stroke-width="3" id="ticks"></g>
+      <line class="hand" id="hm" x1="100" y1="100" x2="100" y2="38" stroke="#f3efe6" stroke-width="5" stroke-linecap="round"/>
+      <line class="hand" id="hh" x1="100" y1="100" x2="100" y2="58" stroke="#d6282f" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="100" cy="100" r="7" fill="#e8b923"/>
+    </svg>
+    <button id="rew" class="red"><span>Rebobinar el tiempo</span></button>
+    <p id="mem"></p>
+  </div>
+</section>
+
+<section>
+  <h2 class="disp">Tus medallas</h2>
+  <p class="note">Rangos oficiales otorgados hoy.</p>
+  <div class="badges">
+    <div class="badge"><i>★</i><b>Amiga leal</b><br><small>Nivel máximo</small></div>
+    <div class="badge"><i>✺</i><b>Corazón enorme</b><br><small>Sin competencia</small></div>
+    <div class="badge"><i>卍</i><b>Líder nata</b><br><small>Por unanimidad</small></div>
+    <div class="badge"><i>✦</i><b>Buena vibra</b><br><small>Contagiosa</small></div>
+  </div>
+</section>
+
+<section style="border-bottom:0">
+  <h2 class="disp">Tu deseo de hoy</h2>
+  <p class="note">Toca el botón para recibir una frase de cumpleaños.</p>
+  <button id="btn"><span>Pedir un deseo</span></button>
+  <p id="wish" aria-live="polite"></p>
+</section>
+
+</main>
+
+<footer>
+  <strong>Hillary, ¡feliz cumpleaños!</strong>
+  Hecho con cariño solo para ti.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
